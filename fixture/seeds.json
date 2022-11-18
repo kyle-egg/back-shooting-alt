@@ -1,0 +1,11 @@
+[
+{
+  "model": "fixture.fixture",
+  "pk": 1,
+  "fields": {
+    "name": "First Fixture",
+    "date": "2022-11-17",
+    "time": "19:34:29"
+  }
+}
+]
