@@ -14,8 +14,8 @@ from django.contrib.auth import get_user_model
 from django.conf import settings
 import jwt
 
-from .models import Player
-from .serializers import UserTeamSerializer, UserRegisterSerializer, PlayerSerializer
+
+from .serializers import UserProfileSerializer, UserRegisterSerializer
 User = get_user_model()
 
 class RegisterView(APIView):
@@ -57,7 +57,7 @@ class LoginView(APIView):
         }, status=status.HTTP_200_OK)
 
 
-class TeamView(APIView):
+class ProfileView(APIView):
 
     permission_classes = (IsAuthenticated, )
 
@@ -65,7 +65,7 @@ class TeamView(APIView):
         serialized_user = UserProfileSerializer(request.user)
         return Response(serialized_user.data, status=status.HTTP_200_OK)
 
-class TeamDetailView(APIView):
+class ProfileDetailView(APIView):
     
     permission_classes = (IsAuthenticated, )
 
@@ -80,16 +80,7 @@ class TeamDetailView(APIView):
 
     def get(self, _request, pk):
         user = self.get_user(pk=pk)
-        serialized_user = UserTeamSerializer(user)
+        serialized_user = UserProfileSerializer(user)
         return Response(serialized_user.data, status=status.HTTP_200_OK)
 
 
-class PlayerListView(ListCreateAPIView):
-    ''' List View for /players GET'''
-    queryset = Player.objects.all()
-    serializer_class = PlayerSerializer
-
-class PlayerDetailView(RetrieveUpdateDestroyAPIView):
-    ''' Detail View for /players/id SHOW UPDATE DELETE'''
-    queryset = Player.objects.all()
-    serializer_class = PlayerSerializer
