@@ -1,0 +1,1611 @@
+[
+{
+  "model": "player.player",
+  "pk": 1,
+  "fields": {
+    "name": "James Marshall",
+    "bio": "",   
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 2,
+  "fields": {
+    "name": "Tom Rolland",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 3,
+  "fields": {
+    "name": "Ed Chambers",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 4,
+  "fields": {
+    "name": "Robert Morin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 5,
+  "fields": {
+    "name": "Andy Chapman",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 6,
+  "fields": {
+    "name": "Ian Jauncey",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 7,
+  "fields": {
+    "name": "R Chapman",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 8,
+  "fields": {
+    "name": "D Chalmers",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 9,
+  "fields": {
+    "name": "R Marshall",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 10,
+  "fields": {
+    "name": "Edward Chambers",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 11,
+  "fields": {
+    "name": "Rob Morin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 12,
+  "fields": {
+    "name": "Paige Fryer",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 13,
+  "fields": {
+    "name": "Richard Germain",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 14,
+  "fields": {
+    "name": "J Fullerton Snr",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 15,
+  "fields": {
+    "name": "Marc Yates",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 16,
+  "fields": {
+    "name": "Jonathan Du Feu",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 17,
+  "fields": {
+    "name": "David Germain",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 18,
+  "fields": {
+    "name": "David Le Cuirot",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 19,
+  "fields": {
+    "name": "Cris Gorski",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 20,
+  "fields": {
+    "name": "Oliver Boyle",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 21,
+  "fields": {
+    "name": "Alex Germain",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 22,
+  "fields": {
+    "name": "C Luce",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 23,
+  "fields": {
+    "name": "David Le Quesne",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 24,
+  "fields": {
+    "name": "Simon De Gruchy",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 25,
+  "fields": {
+    "name": "Robert Jelley",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 26,
+  "fields": {
+    "name": "Joe Beddoe",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 27,
+  "fields": {
+    "name": "Sue De Gruchy",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 28,
+  "fields": {
+    "name": "Simon Jelley",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 29,
+  "fields": {
+    "name": "Derek Jepson",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 30,
+  "fields": {
+    "name": "Kate Le Quesne",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 31,
+  "fields": {
+    "name": "Kaden Rivoallan",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 32,
+  "fields": {
+    "name": "Owen De Gruchy",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 33,
+  "fields": {
+    "name": "Alex Le Quesne",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 34,
+  "fields": {
+    "name": "Ollie Pryke",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 35,
+  "fields": {
+    "name": "Abbie Le Quesne",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 36,
+  "fields": {
+    "name": "Alan Hanby",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 37,
+  "fields": {
+    "name": "Hugo Jones",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 38,
+  "fields": {
+    "name": "Peter Quimby",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 39,
+  "fields": {
+    "name": "Craig Marett",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 40,
+  "fields": {
+    "name": "Steve Baudains",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 41,
+  "fields": {
+    "name": "David Mills",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 42,
+  "fields": {
+    "name": "Jordan Rive",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 43,
+  "fields": {
+    "name": "Hayden Lister",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 44,
+  "fields": {
+    "name": "Francis Wood (Jnr)",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 45,
+  "fields": {
+    "name": "Jasmine Samuels",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 46,
+  "fields": {
+    "name": "Evita de Vos",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 47,
+  "fields": {
+    "name": "Helen Pulley",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 48,
+  "fields": {
+    "name": "Mark Dubras",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 49,
+  "fields": {
+    "name": "Frank Wood",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 50,
+  "fields": {
+    "name": "John Gallichan",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 51,
+  "fields": {
+    "name": "Matt Dingle",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 52,
+  "fields": {
+    "name": "Louisa Crosby",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 53,
+  "fields": {
+    "name": "Thomas Mills",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 54,
+  "fields": {
+    "name": "Richard Benest",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 55,
+  "fields": {
+    "name": "Steve Bouchard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 56,
+  "fields": {
+    "name": "Richard Bouchard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 57,
+  "fields": {
+    "name": "Sam Falle",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 58,
+  "fields": {
+    "name": "Mary Norman",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 59,
+  "fields": {
+    "name": "Kevin Armstrong",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 60,
+  "fields": {
+    "name": "James Armstrong",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 61,
+  "fields": {
+    "name": "Les Howard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 62,
+  "fields": {
+    "name": "Andrew Bouchard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 63,
+  "fields": {
+    "name": "Jonathan Bouchard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 64,
+  "fields": {
+    "name": "Louise Yates",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 65,
+  "fields": {
+    "name": "Jake Le Vesconte",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 66,
+  "fields": {
+    "name": "Alan Berry",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 67,
+  "fields": {
+    "name": "Sam Oldridge",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 68,
+  "fields": {
+    "name": "Phil Aubin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 69,
+  "fields": {
+    "name": "P M Laurens",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 70,
+  "fields": {
+    "name": "Chloe Bouchard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 71,
+  "fields": {
+    "name": "John Boydens",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 72,
+  "fields": {
+    "name": "Eve Simpkin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 73,
+  "fields": {
+    "name": "Paula Simpkin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 74,
+  "fields": {
+    "name": "Peter Norman",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 75,
+  "fields": {
+    "name": "Julian Magalhaes",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 76,
+  "fields": {
+    "name": "Cameron Pirouet",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 77,
+  "fields": {
+    "name": "Ian Syvret",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 78,
+  "fields": {
+    "name": "Fabian Amy",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 79,
+  "fields": {
+    "name": "Nick Le Masurier",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 80,
+  "fields": {
+    "name": "Nick Atkins",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 81,
+  "fields": {
+    "name": "Fern Le Marinal",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 82,
+  "fields": {
+    "name": "Richard Pirouet",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 83,
+  "fields": {
+    "name": "Brian Williams",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 84,
+  "fields": {
+    "name": "Darren Fry",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 85,
+  "fields": {
+    "name": "Ashley M Quenault",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 86,
+  "fields": {
+    "name": "Allan J Quenault",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 87,
+  "fields": {
+    "name": "Lionel Le Gallais",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 88,
+  "fields": {
+    "name": "Steve Michel",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 89,
+  "fields": {
+    "name": "Hilton Carre",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 90,
+  "fields": {
+    "name": "Margaret Ramage",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 91,
+  "fields": {
+    "name": "Richard Jones",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 92,
+  "fields": {
+    "name": "Gary Jegou",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 93,
+  "fields": {
+    "name": "David Vibert",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 94,
+  "fields": {
+    "name": "Emily Rodrigues",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 95,
+  "fields": {
+    "name": "Fern Le Marinel",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 96,
+  "fields": {
+    "name": "Chris Cotilliard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 97,
+  "fields": {
+    "name": "Marcus Bisson",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 98,
+  "fields": {
+    "name": "Steve J Le Couilliard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 99,
+  "fields": {
+    "name": "Richard Fountaine",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 100,
+  "fields": {
+    "name": "Graham Huelin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 101,
+  "fields": {
+    "name": "Kevin De Gruchy",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 102,
+  "fields": {
+    "name": "Paul Vibert",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 103,
+  "fields": {
+    "name": "Matt Beddoe",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 104,
+  "fields": {
+    "name": "Mick Cotilliard",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 105,
+  "fields": {
+    "name": "Barry Le Cheminant",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 106,
+  "fields": {
+    "name": "Sarah Campion",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 107,
+  "fields": {
+    "name": "Andrew Le Cheminant",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 108,
+  "fields": {
+    "name": "Jeremy Hart",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 109,
+  "fields": {
+    "name": "Richard Le Boutillier",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 110,
+  "fields": {
+    "name": "Alan D'Authreau",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 111,
+  "fields": {
+    "name": "Andy Hood",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 112,
+  "fields": {
+    "name": "G Eggelhoefer",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 113,
+  "fields": {
+    "name": "Sarah Chalker",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 114,
+  "fields": {
+    "name": "K Pallot",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 115,
+  "fields": {
+    "name": "Libby Hart",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 116,
+  "fields": {
+    "name": "G L Pallot",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 117,
+  "fields": {
+    "name": "J Le Ruez",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 118,
+  "fields": {
+    "name": "Isla Snowie",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 119,
+  "fields": {
+    "name": "Amelia Bolla",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 120,
+  "fields": {
+    "name": "J M Pallot",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 121,
+  "fields": {
+    "name": "A Rees Williams",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 122,
+  "fields": {
+    "name": "E Payn",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 123,
+  "fields": {
+    "name": "P Moden",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 124,
+  "fields": {
+    "name": "E Le Maistre",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 125,
+  "fields": {
+    "name": "Luke Malcic",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 126,
+  "fields": {
+    "name": "Liam Sumner",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 127,
+  "fields": {
+    "name": "Nick Kerins",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 128,
+  "fields": {
+    "name": "R Tiffin",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 129,
+  "fields": {
+    "name": "James Nippers",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 130,
+  "fields": {
+    "name": "D Allen",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 131,
+  "fields": {
+    "name": "Huw Nippers",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 132,
+  "fields": {
+    "name": "Peter Jory",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 133,
+  "fields": {
+    "name": "S Frost",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+},
+{
+  "model": "player.player",
+  "pk": 134,
+  "fields": {
+    "name": "M Stewart",
+    "bio":   "",
+    "avatar": "",
+    "is_active": true,
+    "title": "",
+    "honours": ""
+  }
+}
+
+]

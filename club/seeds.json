@@ -10,7 +10,490 @@
     "phone": "01534 745209",
     "email": "marshallrobert46@gmail.com",
     "address": "The Tunnel, St. Aubin",
-    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.692746158808!2d-2.17075!3d49.1874167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40f7eb16100ad003!2zNDnCsDExJzE0LjciTiAywrAxMCcxNC43Ilc!5e0!3m2!1sen!2sje!4v1659715077019!5m2!1sen!2sje\" width=\"600\" height=\"450\"></iframe></div>"
+    "maps": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2607.692746158808!2d-2.17075!3d49.1874167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x40f7eb16100ad003!2zNDnCsDExJzE0LjciTiAywrAxMCcxNC43Ilc!5e0!3m2!1sen!2sje!4v1659715077019!5m2!1sen!2sje\" width=\"600\" height=\"450\"></iframe></div>",
+    "players": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "club.club",
+  "pk": 2,
+  "fields": {
+    "name": "St. Helier",
+    "bio": "",
+    "logo": "Logo.com",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "address": "",
+    "maps": "",
+    "players": []
+  }
+},
+{
+  "model": "club.team",
+  "pk": 1,
+  "fields": {
+    "name": "St. Brelade A",
+    "logo": "https://jssa.je/static/media/StBrelade.d30a8633b4009347af87.png",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 2,
+  "fields": {
+    "name": "St Brelade J",
+    "logo": "St Brelade Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 3,
+  "fields": {
+    "name": "Grouville A",
+    "logo": "Grouville Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 4,
+  "fields": {
+    "name": "Grouville J",
+    "logo": "Grouville Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      20,
+      21
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 5,
+  "fields": {
+    "name": "St Helier A",
+    "logo": "St Helier Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 6,
+  "fields": {
+    "name": "St Helier B",
+    "logo": "St Helier Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 7,
+  "fields": {
+    "name": "St Helier J",
+    "logo": "St Helier Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      26,
+      31,
+      33,
+      34,
+      35,
+      37
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 8,
+  "fields": {
+    "name": "St John A",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      38,
+      39,
+      40,
+      41,
+      42,
+      43
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 9,
+  "fields": {
+    "name": "St John B",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 10,
+  "fields": {
+    "name": "St John J",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      52,
+      53
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 11,
+  "fields": {
+    "name": "St Lawrence A",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 12,
+  "fields": {
+    "name": "St Lawrence B",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      60,
+      61,
+      62,
+      63,
+      64,
+      65
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 13,
+  "fields": {
+    "name": "St Lawrence C",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 14,
+  "fields": {
+    "name": "St Lawrence J",
+    "logo": "St Lawrence Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      64,
+      65,
+      67,
+      70,
+      72,
+      75
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 15,
+  "fields": {
+    "name": "Leoville A",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 16,
+  "fields": {
+    "name": "Leoville B",
+    "logo": "Leoville Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      82,
+      83,
+      84,
+      85,
+      86,
+      87
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 17,
+  "fields": {
+    "name": "Leoville C",
+    "logo": "Leoville Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 18,
+  "fields": {
+    "name": "Leoville J",
+    "logo": "Leoville Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      94,
+      95
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 19,
+  "fields": {
+    "name": "Vinchelez A",
+    "logo": "Vinchelez Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 20,
+  "fields": {
+    "name": "Western A",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5cc951e1e666697cf96a4f0b/1575628917722-CVH2M54VLSYZIPD7V8YK/Western_MRC_Logo-removebg-preview.png?format=1500w",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      105,
+      106,
+      107,
+      108,
+      109,
+      110
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 21,
+  "fields": {
+    "name": "Western B",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5cc951e1e666697cf96a4f0b/1575628917722-CVH2M54VLSYZIPD7V8YK/Western_MRC_Logo-removebg-preview.png?format=1500w",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 22,
+  "fields": {
+    "name": "Western J",
+    "logo": "https://images.squarespace-cdn.com/content/v1/5cc951e1e666697cf96a4f0b/1575628917722-CVH2M54VLSYZIPD7V8YK/Western_MRC_Logo-removebg-preview.png?format=1500w",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      115,
+      118,
+      119,
+      124
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 23,
+  "fields": {
+    "name": "Guernsey",
+    "logo": "Guernsey Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": [
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131,
+      132,
+      133,
+      134
+    ]
+  }
+},
+{
+  "model": "club.team",
+  "pk": 24,
+  "fields": {
+    "name": "Vinchelez J",
+    "logo": "Vinchelez Logo",
+    "club": 1,
+    "owner": 3,
+    "is_active": true,
+    "players": []
   }
 }
+
 ]

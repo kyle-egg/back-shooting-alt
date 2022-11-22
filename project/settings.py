@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'jwt_auth',
     'fixture',
     'player',
+    'season',
     'club'
 ]
 

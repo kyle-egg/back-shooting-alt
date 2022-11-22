@@ -1,0 +1,21 @@
+[
+{
+  "model": "season.season",
+  "pk": 2,
+  "fields": {
+    "name": 2022
+  }
+},
+{
+  "model": "season.league",
+  "pk": 1,
+  "fields": {
+    "season": 2,
+    "name": "JSSA Division One",
+    "team": [
+      2,
+      3
+    ]
+  }
+}
+]
