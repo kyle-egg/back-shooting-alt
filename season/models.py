@@ -4,7 +4,7 @@ class Season(models.Model):
     name = models.PositiveIntegerField(unique=True)
 
     def __str__(self):
-        return f'{self.year}'
+        return f'{self.name}'
 
 
 class League(models.Model):

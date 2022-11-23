@@ -13,10 +13,10 @@
     "is_staff": true,
     "is_active": true,
     "date_joined": "2022-11-17T22:18:24Z",
-    "team_name": "Admin",
-    "logo": "AdminLogo",
     "groups": [],
-    "user_permissions": []
+    "user_permissions": [],
+    "team": [],
+    "club": []
   }
 },
 {
@@ -33,38 +33,514 @@
     "is_staff": false,
     "is_active": true,
     "date_joined": "2022-11-17T23:15:43Z",
-    "team_name": "Western A",
-    "logo": "hello",
     "groups": [],
     "user_permissions": [
       33
+    ],
+    "team": [],
+    "club": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "Br3l4d3",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Brelade_A",
+    "first_name": "St Brelade",
+    "last_name": "A",
+    "email": "BreladeA@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-20T20:27:48Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      2
+    ],
+    "club": [
+      1
     ]
   }
 },
 {
-  "model": "jwt_auth.player",
-  "pk": 2,
+  "model": "jwt_auth.user",
+  "pk": 4,
   "fields": {
-    "team": 2,
-    "name": "Kyle Eggelhoefer",
-    "title": "King",
-    "honours": "",
-    "image": "",
-    "bio": "",
-    "is_active": true
+    "password": "H3l13r",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Helier_A",
+    "first_name": "St Helier",
+    "last_name": "A",
+    "email": "StHelier@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-21T23:47:06Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      3
+    ],
+    "club": [
+      2
+    ]
   }
 },
 {
-  "model": "jwt_auth.player",
-  "pk": 3,
+  "model": "jwt_auth.user",
+  "pk": 5,
   "fields": {
-    "team": 2,
-    "name": "Mr Queef",
-    "title": "",
-    "honours": "",
-    "image": "",
-    "bio": "",
-    "is_active": false
+    "password": "Br3l4d3J",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Brelade_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T21:39:26Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      2
+    ],
+    "club": [
+      1
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "Gr0uv1ll34",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Grouville_A",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T21:44:40Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      3
+    ],
+    "club": [
+      4
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "Gr0uv1ll3J",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Grouville_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T21:46:20Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      4
+    ],
+    "club": [
+      4
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "J0hn4",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._John_A",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:01:40Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      8
+    ],
+    "club": [
+      5
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 9,
+  "fields": {
+    "password": "J0hn8",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._John_B",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:04:14Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      9
+    ],
+    "club": [
+      5
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 10,
+  "fields": {
+    "password": "H3l13rJ",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Helier_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:07:30Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      7
+    ],
+    "club": [
+      2
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 11,
+  "fields": {
+    "password": "J0hnJ",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._John_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:08:50Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      10
+    ],
+    "club": [
+      5
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "L4wr3nc34",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Lawrence_A",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:11:13Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      11
+    ],
+    "club": [
+      6
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 13,
+  "fields": {
+    "password": "L4wr3nc38",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Lawrence_B",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:15:51Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      12
+    ],
+    "club": [
+      6
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 14,
+  "fields": {
+    "password": "L4wr3nc3C",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Lawrence_C",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:21:22Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      13
+    ],
+    "club": [
+      6
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 15,
+  "fields": {
+    "password": "L4wr3nc3J",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Lawrence_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:24:01Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      14
+    ],
+    "club": [
+      6
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 16,
+  "fields": {
+    "password": "L30v1ll34",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Leoville_A",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:28:03Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      15
+    ],
+    "club": [
+      7
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 17,
+  "fields": {
+    "password": "L30v1ll38",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Leoville_B",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:36:27Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      16
+    ],
+    "club": [
+      7
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 18,
+  "fields": {
+    "password": "L30v1ll3C",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Leoville_C",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:43:51Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      17
+    ],
+    "club": [
+      7
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 19,
+  "fields": {
+    "password": "L30v1ll3J",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "St._Leoville_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:45:33Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      18
+    ],
+    "club": [
+      7
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 20,
+  "fields": {
+    "password": "V1nch3l3z4",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Vinchelez_A",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T22:48:53Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      19
+    ],
+    "club": [
+      9
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 21,
+  "fields": {
+    "password": "W3stern8",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Western_B",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T23:00:50Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      21
+    ],
+    "club": [
+      8
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 22,
+  "fields": {
+    "password": "W35ternJ",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Western_J",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T23:03:20Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      22
+    ],
+    "club": [
+      8
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 23,
+  "fields": {
+    "password": "Gu3rn53y",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Guernsey",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-22T23:09:17Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      23
+    ],
+    "club": []
   }
 }
 ]
