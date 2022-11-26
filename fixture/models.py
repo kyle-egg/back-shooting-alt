@@ -1,6 +1,7 @@
 from django.db import models
 from django.core.validators import MaxValueValidator
 
+
 class Fixture(models.Model):
     name = models.CharField(max_length=100, null=True)
     season = models.ManyToManyField(
@@ -29,7 +30,7 @@ class Fixture(models.Model):
     away_total_score = models.PositiveIntegerField(default=0, null=True)
     
     def __str__(self):
-        return f'{self.date} - {self.name} - {self.home_team} '
+        return f'{self.date} - {self.name} - {self.home_team}'
     
 class Result(models.Model):
     player = models.ManyToManyField(

@@ -8,4 +8,5 @@ urlpatterns = [
     path('api/clubs/', include('club.urls')),
     path('api/players/', include('player.urls')),
     path('api/seasons/', include('season.urls')),
+    path('api/leagues/', include('season.urls')),
 ]
