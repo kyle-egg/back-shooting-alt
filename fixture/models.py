@@ -43,7 +43,7 @@ class Result(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
     fixture = models.ForeignKey(
         Fixture,
-        related_name='fixture_result',
+        related_name='results',
         on_delete=models.CASCADE
     )
     team = models.ForeignKey(

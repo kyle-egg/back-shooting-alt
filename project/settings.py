@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'fixture',
     'player',
     'season',
-    'club'
+    'club',
 ]
 
 MIDDLEWARE = [
@@ -132,6 +132,9 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+TIME_INPUT_FORMATS = ('%H:%M',)
+DATE_INPUT_FORMATS = ('%d-%m-%Y','%Y-%m-%d')
+
 REST_FRAMEWORK = {
     'DEFAULT_RENDERER_CLASSES': (
         'djangorestframework_camel_case.render.CamelCaseJSONRenderer',
@@ -139,9 +142,12 @@ REST_FRAMEWORK = {
     ),
     'DEFAULT_PARSER_CLASSES': (
         'djangorestframework_camel_case.parser.CamelCaseJSONParser',
-    )
+    ), 
+
+      'DEFAULT_AUTHENTICATION_CLASSES': [
+        'jwt_auth.authentication.JWTAuthentication'
+    ]
 }
 
-TIME_INPUT_FORMATS = ('%H:%M',)
-DATE_INPUT_FORMATS = ('%d-%m-%Y','%Y-%m-%d')
+
 AUTH_USER_MODEL = 'jwt_auth.User'

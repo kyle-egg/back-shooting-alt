@@ -39,4 +39,4 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ('team', 'club')
+        fields = ('username', 'team', 'club')

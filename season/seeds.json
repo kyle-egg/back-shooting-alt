@@ -7,14 +7,44 @@
   }
 },
 {
+  "model": "season.season",
+  "pk": 3,
+  "fields": {
+    "name": 2021
+  }
+},
+{
   "model": "season.league",
   "pk": 1,
   "fields": {
     "season": 2,
     "name": "JSSA Division One",
     "team": [
-      2,
-      3
+      1,
+      5,
+      8,
+      11,
+      15,
+      16,
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "season.league",
+  "pk": 2,
+  "fields": {
+    "season": 2,
+    "name": "JSSA Division Two",
+    "team": [
+      3,
+      6,
+      9,
+      12,
+      13,
+      17,
+      21
     ]
   }
 }

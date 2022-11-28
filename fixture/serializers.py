@@ -7,6 +7,11 @@ User = get_user_model()
 from player.models import Player
 from season.models import League, Season
 
+class NestedUserSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'team')
+
 class NestedLeagueSerializer(serializers.ModelSerializer):
     class Meta:
         model = League
@@ -21,11 +26,6 @@ class NestedPlayerSerializer(serializers.ModelSerializer):
     class Meta:
         model = Player
         fields = '__all__'
-
-class NestedUserSerializer(serializers.ModelSerializer):
-    class Meta:
-        model = User
-        fields = ('id', 'username', 'team')
 
 class NestedTeamSerializer(serializers.ModelSerializer):
     class Meta:

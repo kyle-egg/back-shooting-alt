@@ -1,10 +1,6 @@
 from datetime import datetime, timedelta
 import rest_framework
 from rest_framework import serializers
-from rest_framework import status
-from rest_framework.generics import (
-    ListCreateAPIView, RetrieveUpdateDestroyAPIView
-)
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.exceptions import PermissionDenied, NotFound
@@ -39,10 +35,10 @@ class LoginView(APIView):
         try:
             user_to_login = User.objects.get(username=username)
         except User.DoesNotExist:
-            raise PermissionDenied(detail='Unauthorized')
+            raise PermissionDenied(detail='Unauthorized user')
 
         if not user_to_login.check_password(password):
-            raise PermissionDenied(detail='Unauthorized')
+            raise PermissionDenied(detail='Unauthorized password')
 
         expiry_time = datetime.now() + timedelta(days=7)
         token = jwt.encode(
