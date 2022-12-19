@@ -48,7 +48,7 @@
     "password": "Br3l4d3",
     "last_login": null,
     "is_superuser": false,
-    "username": "StBreladeA",
+    "username": "StBreladeAOLD",
     "first_name": "St Brelade",
     "last_name": "A",
     "email": "BreladeA@gmail.com",
@@ -58,7 +58,7 @@
     "groups": [],
     "user_permissions": [],
     "team": [
-      2
+      1
     ],
     "club": [
       1
@@ -82,7 +82,7 @@
     "groups": [],
     "user_permissions": [],
     "team": [
-      3
+      5
     ],
     "club": [
       2
@@ -523,7 +523,7 @@
 },
 {
   "model": "jwt_auth.user",
-  "pk": 23,
+  "pk": 22,
   "fields": {
     "password": "Gu3rn53y",
     "last_login": null,
@@ -538,9 +538,97 @@
     "groups": [],
     "user_permissions": [],
     "team": [
-      23
+      22
     ],
     "club": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 24,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$WfM9i8nrUHk1prpLd9C1Ze$Vbs2KjMLtgyz+5dI4LR3sfHAFu2wfmX015Mi+HYvF4Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "insomnia2",
+    "first_name": "",
+    "last_name": "",
+    "email": "insomnia2@insomnia2.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-28T11:50:43Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      5
+    ],
+    "club": [
+      2
+    ]
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 25,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$VynBQGQYN3hbwcvBlhAKrT$1y9yilYu6sFUvPci7xCfQtyEGntBctWA/PjtmwSxl0Y=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "insomnia",
+    "first_name": "",
+    "last_name": "",
+    "email": "insomnia2@insomnia.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-28T20:57:41.018Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [],
+    "club": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 26,
+  "fields": {
+    "password": "test",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "test",
+    "first_name": "test",
+    "last_name": "test",
+    "email": "test@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-28T22:23:49Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [],
+    "club": []
+  }
+},
+{
+  "model": "jwt_auth.user",
+  "pk": 27,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$0BZ0I8ZB6EwSGbSXkf0duj$YSQQEIEZ2QzJIRBsS8IT7D8ycdYon5F7iIyXcZavSoo=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "StBreladeA",
+    "first_name": "",
+    "last_name": "",
+    "email": "brelade@jssa.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2022-11-29T17:42:47Z",
+    "groups": [],
+    "user_permissions": [],
+    "team": [
+      1
+    ],
+    "club": [
+      1
+    ]
   }
 }
 ]

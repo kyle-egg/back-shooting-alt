@@ -20,7 +20,7 @@ class Club(models.Model):
 
 class Team(models.Model):
     name = models.CharField(max_length=100)
-    logo = models.CharField(max_length=500)
+    logo = models.CharField(max_length=500, blank=True)
     club = models.ForeignKey(
         Club,
         related_name='teams',

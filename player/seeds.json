@@ -1057,18 +1057,6 @@
 },
 {
   "model": "player.player",
-  "pk": 89,
-  "fields": {
-    "name": "Hilton Carre",
-    "bio": "",
-    "avatar": "",
-    "is_active": true,
-    "title": "",
-    "honours": ""
-  }
-},
-{
-  "model": "player.player",
   "pk": 90,
   "fields": {
     "name": "Margaret Ramage",

@@ -4,8 +4,8 @@
   "pk": 1,
   "fields": {
     "name": "Hel A V Bre A",
-    "date": "2022-10-13",
-    "time": "19:00:00",
+    "date": "2022-12-01",
+    "time": "19:49:54",
     "home_total_score": 0,
     "away_total_score": 0,
     "season": [
@@ -115,6 +115,29 @@
   }
 },
 {
+  "model": "fixture.fixture",
+  "pk": 6,
+  "fields": {
+    "name": "test",
+    "date": "2022-11-29",
+    "time": "22:17:43",
+    "home_total_score": 0,
+    "away_total_score": 0,
+    "season": [
+      2
+    ],
+    "league": [
+      1
+    ],
+    "home_team": [
+      1
+    ],
+    "away_team": [
+      3
+    ]
+  }
+},
+{
   "model": "fixture.result",
   "pk": 1,
   "fields": {
@@ -206,7 +229,7 @@
     "shot_two": 100,
     "created_at": "2022-11-27T16:49:14.348Z",
     "fixture": 1,
-    "team": 3,
+    "team": 27,
     "player": [
       2
     ]
@@ -220,7 +243,7 @@
     "shot_two": 96,
     "created_at": "2022-11-27T16:50:12.364Z",
     "fixture": 1,
-    "team": 3,
+    "team": 27,
     "player": [
       3
     ]
@@ -234,7 +257,7 @@
     "shot_two": 96,
     "created_at": "2022-11-27T16:50:31.685Z",
     "fixture": 1,
-    "team": 3,
+    "team": 27,
     "player": [
       1
     ]
@@ -248,7 +271,7 @@
     "shot_two": 95,
     "created_at": "2022-11-27T16:51:00.156Z",
     "fixture": 1,
-    "team": 3,
+    "team": 27,
     "player": [
       5
     ]
@@ -262,7 +285,7 @@
     "shot_two": 90,
     "created_at": "2022-11-27T16:51:39.464Z",
     "fixture": 1,
-    "team": 3,
+    "team": 27,
     "player": [
       12
     ]
@@ -276,9 +299,35 @@
     "shot_two": 89,
     "created_at": "2022-11-27T16:51:59.823Z",
     "fixture": 1,
-    "team": 3,
+    "team": 27,
     "player": [
       4
+    ]
+  }
+},
+{
+  "model": "fixture.result",
+  "pk": 13,
+  "fields": {
+    "shot_one": 8,
+    "shot_two": 8,
+    "created_at": "2022-11-30T17:51:12.667Z",
+    "fixture": 1,
+    "team": 25,
+    "player": []
+  }
+},
+{
+  "model": "fixture.result",
+  "pk": 14,
+  "fields": {
+    "shot_one": 1,
+    "shot_two": 1,
+    "created_at": "2022-12-01T20:11:45.626Z",
+    "fixture": 1,
+    "team": 27,
+    "player": [
+      1
     ]
   }
 }

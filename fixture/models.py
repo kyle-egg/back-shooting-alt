@@ -14,8 +14,8 @@ class Fixture(models.Model):
         related_name='leagues',
         blank=True
     )
-    date = models.DateField()
-    time = models.TimeField()
+    date = models.DateField(blank=True)
+    time = models.TimeField(blank=True)
     home_team = models.ManyToManyField(
         'club.Team',
         related_name='home_fixture',
@@ -30,9 +30,11 @@ class Fixture(models.Model):
     away_total_score = models.PositiveIntegerField(default=0, null=True)
     
     def __str__(self):
-        return f'{self.date} - {self.name} - {self.home_team}'
+        return f'{self.date} - {self.name}'
     
 class Result(models.Model):
+    player_name = models.CharField(max_length=50, blank=True)
+    player_id = models.PositiveIntegerField(default=0, blank=True)
     player = models.ManyToManyField(
         'player.Player',
         related_name='score',
@@ -53,4 +55,4 @@ class Result(models.Model):
     )
     
     def __str__(self):
-        return f'{self.fixture} - {self.team} - {self.player} - {self.created_at}'
+        return f'{self.fixture} - {self.team} - {self.created_at}'

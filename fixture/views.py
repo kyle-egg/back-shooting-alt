@@ -23,7 +23,7 @@ class FixtureDetailView(RetrieveUpdateDestroyAPIView):
     permission_classes = (IsAuthenticatedOrReadOnly, )
 
 class ResultListView(APIView):
-    ''' List View for /fixtures/fixtureId/comments CREATE fixturess'''
+    ''' List View for /fixtures/fixtureId/results CREATE fixturess'''
 
     permission_classes = (IsAuthenticated, )
 

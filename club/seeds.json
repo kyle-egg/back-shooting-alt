@@ -3,7 +3,7 @@
   "model": "club.club",
   "pk": 1,
   "fields": {
-    "name": "St. Brelade",
+    "name": "St Brelade",
     "bio": "Operating Times: From April to September Monday Evening from 7.30pm\r\nClub & Practice Night(s): From October to March Monday and Wednesday evenings from 7.30pm\r\nTeam Shooting Night: From October to March League Shooting on a Thursday evening",
     "logo": "https://jssa.je/static/media/StBrelade.d30a8633b4009347af87.png",
     "website": "",
@@ -28,7 +28,7 @@
   "model": "club.club",
   "pk": 2,
   "fields": {
-    "name": "St. Helier",
+    "name": "St Helier",
     "bio": "Operating Times: September to March\r\nClub & Practice Night(s): Monday evenings",
     "logo": "https://jssa.je/static/media/hmrc-logo.eab1c6d0bc0662e2786d.png",
     "website": "",
@@ -73,7 +73,7 @@
   "model": "club.club",
   "pk": 5,
   "fields": {
-    "name": "St. John",
+    "name": "St John",
     "bio": "Club & Practice Night(s): Rifle - 7:00pm to 9:00pm Monday | Pistol - 7:00pm to 9:00pm Wednesday\r\nTeam Shooting Night: 7:00pm Thursday",
     "logo": "https://jssa.je/static/media/StJohnLogo.3f75983ff0241f36cdbf.png",
     "website": "",
@@ -88,7 +88,7 @@
   "model": "club.club",
   "pk": 6,
   "fields": {
-    "name": "St. Lawrence",
+    "name": "St Lawrence",
     "bio": "Operating Times: From 7pm\r\nClub & Practice Night(s): Monday (Air Rifle) and Wednesday (.22)\r\nTeam Shooting Night: Friday",
     "logo": "https://jssa.je/static/media/StLawrence.2cecee4f0e810a0074e4.png",
     "website": "",
@@ -163,7 +163,7 @@
   "model": "club.team",
   "pk": 1,
   "fields": {
-    "name": "St. Brelade A",
+    "name": "St Brelade A",
     "logo": "https://jssa.je/static/media/StBrelade.d30a8633b4009347af87.png",
     "club": 1,
     "owner": 3,
@@ -185,7 +185,7 @@
   "model": "club.team",
   "pk": 2,
   "fields": {
-    "name": "St. Brelade J",
+    "name": "St Brelade J",
     "logo": "St Brelade Logo",
     "club": 1,
     "owner": 5,
@@ -622,12 +622,12 @@
 },
 {
   "model": "club.team",
-  "pk": 23,
+  "pk": 22,
   "fields": {
-    "name": "Guernsey A",
+    "name": "Guernsey",
     "logo": "Guernsey Logo",
     "club": 10,
-    "owner": 23,
+    "owner": 22,
     "is_active": true,
     "players": [
       128,
