@@ -22,10 +22,17 @@ class FixtureDetailView(RetrieveUpdateDestroyAPIView):
     serializer_class = FixtureSerializer
     permission_classes = (IsAuthenticatedOrReadOnly, )
 
-class ResultListView(APIView):
-    ''' List View for /fixtures/fixtureId/results CREATE fixturess'''
+class ResultAllView(ListCreateAPIView):
+    ''' List View for /fixtures/results View All Results'''
+    queryset = Result.objects.all()
+    serializer_class = ResultSerializer
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
-    permission_classes = (IsAuthenticated, )
+class ResultListView(ListCreateAPIView):
+    ''' List View for /fixtures/fixtureId/results CREATE fixtures'''
+    queryset = Result.objects.all()
+    serializer_class = ResultSerializer
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
     def post(self, request, fixture_pk):
         request.data['fixture'] = fixture_pk
@@ -39,14 +46,19 @@ class ResultListView(APIView):
 
 class ResultDetailView(RetrieveUpdateDestroyAPIView):
     ''' DELETE COMMENT VIEW '''
+    queryset = Result.objects.all()
+    serializer_class = ResultSerializer
+    permission_classes = (IsAuthenticatedOrReadOnly, )
 
-    permission_classes = (IsAuthenticated, )
+    
 
-    def delete(self, _request, **kwargs):
-        result_pk = kwargs['result_pk']
-        try:
-            result_to_delete = Result.objects.get(pk=result_pk)
-            result_to_delete.delete()
-            return Response(status=status.HTTP_204_NO_CONTENT)
-        except Result.DoesNotExist:
-            raise NotFound(detail='Result Not Found')
+    # def delete(self, _request, **kwargs):
+    #     result_pk = kwargs['result_pk']
+    #     try:
+    #         result_to_delete = Result.objects.get(pk=result_pk)
+    #         result_to_delete.delete()
+    #         return Response(status=status.HTTP_204_NO_CONTENT)
+    #     except Result.DoesNotExist:
+    #         raise NotFound(detail='Result Not Found')
+
+    

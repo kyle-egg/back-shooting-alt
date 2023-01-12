@@ -46,13 +46,15 @@ class Result(models.Model):
     fixture = models.ForeignKey(
         Fixture,
         related_name='results',
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
+        blank=True
     )
     team = models.ForeignKey(
         'jwt_auth.User',
         related_name='team_results',
-        on_delete=models.CASCADE
+        on_delete=models.CASCADE,
+        blank=True
     )
     
     def __str__(self):
-        return f'{self.fixture} - {self.team} - {self.created_at}'
+        return f'{self.fixture} - {self.team} - {self.player_name} [{self.shot_one}][{self.shot_two}]'
