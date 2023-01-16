@@ -22,6 +22,11 @@ class LeagueListView(ListCreateAPIView):
     queryset = League.objects.all()
     serializer_class = LeagueSerializer
 
+class LeagueAllView(ListCreateAPIView):
+    ''' List View for /season GET'''
+    queryset = League.objects.all()
+    serializer_class = LeagueSerializer
+
 class LeagueDetailView(RetrieveUpdateDestroyAPIView):
     ''' Detail View for /season/id SHOW UPDATE DELETE'''
     queryset = League.objects.all()
